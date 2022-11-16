@@ -1,11 +1,19 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.* OR cat:eess.IV OR cat:eess.SY'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        AUV: 1
+        ROV: 1
+        Inverse Optimal: 2
+        underwater object: 2
+        underwater measurement: 2
+        underwater robot: 3
+        manipulator: 3
+        visual servoing: 3
+        underwater mosaicking: 3
+        underwater: 5
+        
 
 # 通知の閾値
 score_threshold: 0
