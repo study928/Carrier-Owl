@@ -1,19 +1,11 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.* OR cat:eess.IV OR cat:eess.SY'
+subject: 'cat:cs.*'
 
 # 検索キーワード
 keywords:
-        AUV: 1
-        ROV: 1
-#         Inverse Optimal: 2
-        underwater object: 2
-#         underwater measurement: 2
-#         underwater robot: 3
-#         manipulator: 3
-#         visual servoing: 3
-#         underwater mosaicking: 3
-        underwater: 5
-        
+        kaggle: 3
+        resnet: 3
+        anomaly detection: 1
 
 # 通知の閾値
 score_threshold: 0
